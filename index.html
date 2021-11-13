@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="stylish.css" rel="stylesheet">
+    <title>EPIC score keeper</title>
+</head>
+<body>
+    <h1>Score Keeper</h1>
+    <span id="currentScore"><span id="p1LiveScore">0</span> to <span id="p2LiveScore">0</span></span>
+    <span>Playing To</span>
+
+    <select id="playingTo">
+        <option value="">3</option>
+        <option value="">5</option>
+        <option value="">6</option>
+        <option value="">7</option>
+        <option value="">8</option>
+        <option value="">9</option>
+        <option value="">10</option>
+        <option value="">11</option>
+    </select>
+
+    <br>
+    <button id="p1">Player 1: +1</button>
+    <button id=p2>Player 2: +1</button>
+    <button id="reset">Reset</button>
+
+    <br>
+    <span>And the winner is...<span id="winner"></span></span>
+
+    <script src="epicApp.js"></script>
+</body>
+</html>
